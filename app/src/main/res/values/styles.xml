@@ -1,0 +1,103 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppFullscreen" parent="@style/Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="AppSplash" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Material Theme -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="SwipeFlingStyle">@style/SwipeFling</item>
+
+        <!-- Toolbar Theme / Apply white arrow -->
+        <item name="actionBarTheme">@style/AppTheme.ActionBarTheme</item>
+
+        <!-- Material Theme -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- android:textColorPrimary is the  color of the title text
+     in the Toolbar, in the Theme.AppCompat theme:  -->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+
+        <!-- android:textColorPrimaryInverse is the  color of the title
+             text in the Toolbar, in the Theme.AppCompat.Light theme:  -->
+        <!-- <item name="android:textColorPrimaryInverse">@color/abc_primary_text_material_light</item> -->
+
+        <!-- EditText theme -->
+        <item name="android:editTextColor">#404040</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+
+        <!--
+        All dialogs will default to Theme.DARK with this set to true.
+    -->
+        <item name="md_dark_theme">false</item>
+
+        <!--
+            This overrides the default dark or light dialog background color.
+            Note that if you use a dark color here, you should set md_dark_theme to
+            true so text and selectors look visible
+        -->
+        <item name="md_background_color">@color/colorBackground</item>
+
+        <!--
+            By default, the title text color is derived from the
+            ?android:textColorPrimary system attribute.
+        -->
+        <item name="md_title_color">@color/colorPrimary</item>
+
+        <!--
+            By default, the content text color is derived from the
+            ?android:textColorSecondary system attribute.
+        -->
+        <item name="md_content_color">@color/mainText</item>
+
+        <!--
+            By default, the link color is derived from the colorAccent attribute
+            of AppCompat or android:colorAccent attribute of the Material theme.
+        -->
+        <item name="md_link_color">@color/colorAccent</item>
+
+        <!--
+            Dialog Buttons
+        -->
+        <item name="md_positive_color">@color/colorAccent</item>
+        <item name="md_neutral_color">@color/colorAccent</item>
+        <item name="md_negative_color">@color/colorAccent</item>
+
+    </style>
+
+    <style name="AppTheme.ActionBarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- White arrow -->
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <!-- Icon bar style -->
+    <style name="StyleIconBar">
+        <item name="android:textColor">@color/barTextDisabled</item>
+    </style>
+
+    <!-- Cypher buttons -->
+    <style name="EncryptButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/colorButtonCrypt</item>
+        <item name="colorButtonNormal">@color/colorButtonCrypt</item>
+    </style>
+
+    <style name="DecryptButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/colorButtonDecrypt</item>
+        <item name="colorButtonNormal">@color/colorButtonDecrypt</item>
+    </style>
+
+</resources>

@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- App -->
+    <string name="app_name">MATLABit</string>
+    <string name="app_profile">Mon profil</string>
+    <string name="app_best">Les plus demandés</string>
+    <string name="app_list">Ta liste BDE</string>
+    <string name="app_game">OASIS\'Ninja</string>
+
+    <!-- Tabs -->
+    <string name="tab_ninja">Oasis Ninja</string>
+    <string name="tab_fruiter">Pineapple</string>
+    <string name="tab_hack">Hack</string>
+    <string name="tab_news">News</string>
+
+    <!-- Salts -->
+    <string name="auth_login">selfRetain_$_0x128D4_objc</string>
+    <string name="auth_password">Oups, erreur de connexion</string>
+    <string name="auth_fruiter_list">Discipliné666</string>
+    <string name="auth_send_picture">hmmmdaOUI42</string>
+    <string name="auth_register">Erreur mémoire cache</string>
+    <string name="auth_send_match">AdolfUnChien.com</string>
+    <string name="auth_best_match">TheSubsLongestNight</string>
+    <string name="auth_list_match">JavaleduSwift,Taylor</string>
+    <string name="auth_delete_match">jeSuisTresSerieuxxxx</string>
+    <string name="auth_delete_picture">tucroixcketuvoiBaseDonneeSinusvidal</string>
+    <string name="auth_unregister">Bonjour %s !</string>
+    <string name="auth_ninja">**** SCORES ****</string>
+
+    <string name="play_api_push">698253693526</string>
+    <string name="google_app_id">698253693526</string>
+
+</resources>

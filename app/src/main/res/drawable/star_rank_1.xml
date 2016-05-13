@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:bottom="8dp"
+        android:left="8dp"
+        android:right="8dp"
+        android:top="8dp">
+        <rotate android:fromDegrees="45">
+            <shape android:shape="rectangle">
+                <solid android:color="@color/scoreFirst" />
+            </shape>
+        </rotate>
+    </item>
+
+    <item
+        android:bottom="@dimen/inner_smal"
+        android:left="@dimen/inner_smal"
+        android:right="@dimen/inner_smal"
+        android:top="@dimen/inner_smal">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/scoreFirst" />
+        </shape>
+    </item>
+
+
+</layer-list>

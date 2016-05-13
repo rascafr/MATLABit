@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <color name="colorPrimary">#FE9735</color>
+    <color name="colorPrimaryDark">#e77c17</color>
+    <color name="colorAccent">#5c9aab</color>
+    <color name="colorBackground">#F1EFF6</color>
+    <color name="icoBackground">#F6F5F8</color>
+    <color name="barTextDisabled">#A09FA2</color>
+    <color name="barLine">#B3B0B0</color>
+    <color name="listDivider">#dadada</color>
+    <color name="barTextEnabled">@color/colorPrimary</color>
+    <color name="colorButtonCrypt">#f4b578</color>
+    <color name="colorButtonDecrypt">#f4b578</color>
+    <color name="md_grey_500">#9E9E9E</color>
+    <color name="md_grey_600">#757575</color>
+
+    <color name="textScoreName">#222</color>
+    <color name="textScoreValue">#656565</color>
+    <color name="scoreFirst">#e2b53a</color>
+    <color name="scoreSecond">#bebebe</color>
+    <color name="scoreThird">#c9862a</color>
+
+    <color name="gameOver">#ff887e</color>
+    <color name="gameOverScore">#fcc48d</color>
+
+    <drawable name="semitransparent_white">#20000000</drawable>
+
+    <!-- AndTinder -->
+    <color name="card_bg">#EBEBEB</color>
+    <color name="card_outline">#D0D0CE</color>
+    <color name="mainText">#4F4E45</color>
+</resources>

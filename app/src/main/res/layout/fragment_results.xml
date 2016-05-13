@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/back_fruit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"  >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:padding="10dp"
+            android:minWidth="190dp"
+            android:minHeight="165dp"
+            android:stretchColumns="true"
+            android:textStyle="bold"
+            android:text="GAME OVER"
+            android:textColor="@color/gameOver"
+            android:gravity="center"
+            android:textSize="64sp"/>
+
+        <TextView
+            android:id="@+id/textview_results"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:padding="10dp"
+            android:minWidth="190dp"
+            android:minHeight="165dp"
+            android:stretchColumns="true"
+            android:textStyle="bold"
+            android:text="123"
+            android:textColor="@color/gameOverScore"
+            android:gravity="center"
+            android:textSize="48sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imgQuit"
+                    android:layout_width="148dp"
+                    android:layout_height="148dp"
+                    android:layout_marginRight="32dp"
+                    android:src="@drawable/ic_quit"/>
+
+                <ImageView
+                    android:id="@+id/imgRetry"
+                    android:layout_marginLeft="32dp"
+                    android:layout_width="148dp"
+                    android:layout_height="148dp"
+                    android:src="@drawable/ic_retry"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

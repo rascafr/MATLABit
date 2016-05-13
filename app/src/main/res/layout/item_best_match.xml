@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgBestUser"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/eseoasis_logo"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/tvBestHowMany"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="dans 4 listes"/>
+
+    <TextView
+        android:id="@+id/tvBestName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textScoreName"
+        android:textSize="16sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_centerVertical="true"
+        android:text="Guy Plantier"
+        android:layout_toRightOf="@id/imgBestUser"
+        android:layout_toLeftOf="@id/tvBestHowMany"
+        />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/vwDivider"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="8dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/listDivider"/>
+
+</LinearLayout>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/mainBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/icoBackground"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/llNinja"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/barIcoNinja"
+                android:layout_width="@dimen/icon_bar_width"
+                android:layout_height="@dimen/icon_bar_height"
+                android:src="@drawable/ic_banana_dis" />
+
+            <TextView
+                android:id="@+id/barTvNinja"
+                style="@style/StyleIconBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tab_ninja" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llFruiter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/barIcoFruiter"
+                android:layout_width="@dimen/icon_bar_width"
+                android:layout_height="@dimen/icon_bar_height"
+                android:src="@drawable/ic_like_dis" />
+
+            <TextView
+                android:id="@+id/barTvFruiter"
+                style="@style/StyleIconBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tab_fruiter" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llHack"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/barIcoHack"
+                android:layout_width="@dimen/icon_bar_width"
+                android:layout_height="@dimen/icon_bar_height"
+                android:src="@drawable/ic_lock_dis" />
+
+            <TextView
+                android:id="@+id/barTvHack"
+                style="@style/StyleIconBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tab_hack" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llNews"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/barIcoNews"
+                android:layout_width="@dimen/icon_bar_width"
+                android:layout_height="@dimen/icon_bar_height"
+                android:src="@drawable/ic_news_dis" />
+
+            <TextView
+                android:id="@+id/barTvNews"
+                style="@style/StyleIconBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tab_news" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/vw"
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_above="@id/mainBarLayout"
+        android:background="@color/barLine" />
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/vw"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorBackground"
+        android:clickable="true" />
+
+    <RelativeLayout
+        android:id="@+id/rlMatch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="#b0000000"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgMatch"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:src="@drawable/ic_no_user"
+                app:border_color="#fff"
+                app:border_width="4dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Tu as une touche !"
+                android:textColor="@android:color/white"
+                android:textSize="28sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tvMatch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Guy Plantier te veut dans sa liste BDE"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/tvMatchClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:textStyle="bold"
+            android:text="FERMER"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
