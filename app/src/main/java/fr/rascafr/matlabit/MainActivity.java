@@ -34,6 +34,10 @@ import fr.rascafr.matlabit.ninja.game.ui.GameHostActivity;
 import fr.rascafr.matlabit.profile.ProfileActivity;
 import fr.rascafr.matlabit.profile.UserProfile;
 
+/**
+ * Dickbutt
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     // Tab definition
