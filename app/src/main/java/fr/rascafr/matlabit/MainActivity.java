@@ -22,7 +22,6 @@ import com.squareup.picasso.Picasso;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import fr.rascafr.matlabit.R;
 import fr.rascafr.matlabit.app.DataStorage;
 import fr.rascafr.matlabit.fruiter.FruiterFragment;
 import fr.rascafr.matlabit.fruiter.best.BestActivity;
@@ -35,7 +34,7 @@ import fr.rascafr.matlabit.profile.ProfileActivity;
 import fr.rascafr.matlabit.profile.UserProfile;
 
 /**
- * Dickbutt
+ * Dickbutt V1.0
  */
 
 public class MainActivity extends AppCompatActivity {
